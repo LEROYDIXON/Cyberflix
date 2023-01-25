@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -57,6 +57,7 @@ nav button {
 }
 
 .header-content {
+    margin-top: 100px;
     position: absolute;
     left: 50%;
     text-align: center;
@@ -84,26 +85,65 @@ nav button {
     color: red;
 }
 
-.email-signup{
+.email-signup {
     border-radius: 4px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     overflow: hidden;
 }
 
-.email-signup input{
+.email-signup input {
     flex: 1;
     margin-left: 20px;
-    
-    
+
+
 }
 
-.email-signup button{
+.email-signup button {
     background: #000;
     border: 1px solid red;
     color: #fff;
     cursor: pointer;
     font-size: 16px;
     padding: 15px 30px;
+
+}
+
+
+/* --------features---------*/
+
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px red;
     
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
 }
